@@ -4,7 +4,7 @@ function calcularPi() {
     const cantidadPuntos = parseInt(document.getElementById("numPuntos").value);
     const ancho = lienzo.width;
     const radio = ancho / 2;
-    const maxPuntos= 5000;
+    const maxPuntos= 10000;
 
     let dentroCirculo = 0;
     let puntosTotales = 0;
