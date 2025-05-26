@@ -4,7 +4,7 @@ function calcularPi() {
     const cantidadPuntos = parseInt(document.getElementById("numPuntos").value);
     const ancho = lienzo.width;
     const radio = ancho / 2;
-    const maxPuntos= 10000;
+    const maxPuntos= 100000;
 
     let dentroCirculo = 0;
     let puntosTotales = 0;
@@ -12,7 +12,7 @@ function calcularPi() {
 
 
     if (cantidadPuntos>maxPuntos) {
-        alert('La cantidad de puntos tiene que ser menor a '+maxPuntos);
+        alert('La cantidad de puntos tiene que ser menor igual a '+maxPuntos);
         return;
     }
   
